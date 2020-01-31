@@ -150,9 +150,34 @@
 
     <!-- impact backgroud -->
       <div class="impact-section" style="background-image: url('img/impact-bg.png')">
-
+          <form class="im-form text-center" action="" method="post">
+            <button class="btn btn-lg btn-dark im-btn" type="submit" name="button">Stay Tuned!</button>
+            <input type="email" name="" value="" placeholder="Enter Your Email Address" class="im-input">
+          </form>
       </div>
     <!-- impact backgroud -->
+
+    <!-- footer section -->
+    <div class="footer text-right">
+      <div class="container">
+        <div class="row py-4">
+          <div class="col-md-4">
+            <img src="img/hult_white.png" style="width: 70px;" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="img/unicorn.png" style="width: 200px;" alt="">
+          </div>
+          <div class="col-md-4 links">
+            <h4>Curated Connections</h4>
+            <hr>
+            <a href="#"> <img src="img/twitter.png" class="link-img" alt=""> </a>
+            <a href="#"> <img src="img/insta.png" class="link-img" alt=""> </a>
+            <a href="#"> <img src="img/in.png" class="link-img" alt=""> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->
 
     <!-- my code ends here -->
   </body>
