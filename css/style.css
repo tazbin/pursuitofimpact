@@ -1,3 +1,12 @@
+@font-face {
+font-family: "Edmondsans Bold";
+src: url("fonts/Edmondsans-Bold.eot");
+src:
+url("fonts/Edmondsans-Bold.woff") format("woff"),
+url("fonts/Edmondsans-Bold.otf") format("opentype"),
+url("fonts/Edmondsans-Bold.svg#filename") format("svg");
+}
+
 @media only screen and (max-width: 1023px) {
   .mobile{
     display: block;
@@ -49,6 +58,7 @@
   }
 
   .stay-input{
+    font-family: 'Edmondsans Bold', Arial, sans-serif;
     width: 500px;
     height: 70px;
     border: none;
@@ -102,6 +112,7 @@
   }
 
   .stay-input{
+    font-family: 'Edmondsans Bold', Arial, sans-serif;
     width: 500px;
     height: 70px;
     border: none;
@@ -129,7 +140,7 @@
 }
 
 .quote{
-  /* font-size: 55px; */
+  font-family: 'Edmondsans Bold', Arial, sans-serif;
   font-size: 320%;
   font-weight: bold;
   margin-top: 50px;
@@ -172,7 +183,7 @@
 }
 
 .m-quote{
-  /* font-size: 55px; */
+  font-family: 'Edmondsans Bold', Arial, sans-serif;
   font-size: 35px;
   font-weight: bold;
   margin-top: 40px;
@@ -180,6 +191,7 @@
 /* home section */
 
 /* ashkar introduction */
+
 .intro{
   margin-top: 20px;
   width: 80%;

@@ -52,28 +52,29 @@
     <!-- home section -->
 
     <!-- ashkar introduction -->
-    <div class="intro">
-      <div class="row">
-        <div class="col-lg-4 col-md-12 text-center">
-          <img src="img/ashkar.png" class="intro-img" alt="">
-        </div>
-        <div class="col-lg-8 col-md-12 text-left" style="margin-top: 50px;">
-          <span class="h1-black">AHMAD</span> <br>
-          <span class="h1-orange">ASHKAR</span> <br>
-          <span class="h3-black">SOCIAL</span> <span class="h3-orange">VENTURE EXECUTIVE</span>
-          <p class="intro-text desktop">
-            Chief Executive Officer with more than a decade of top-level management experience in both non-profit and for-profit sector. Dynamic experience in creating and growing companies and recognized as a 2018 GQ Entrepreneur of the Year, Esquire Magazine Entrepreneur of the Year 2017 and Arabian Business CEO of the Year 2016. Most recently, in 2018, Fast Company recognized the Hult Prize <br>
-            Foundation as one of the world's most innovative. Multiple successful deployments in education, real estate, finance, advisory, hospitality, wellness and food and beverage.
-          </p>
-          <p class="intro-text mobile" style="font-size: 30px;">
-            Chief Executive Officer with more than a decade of top-level management experience in both non-profit and for-profit sector. Dynamic experience in creating and growing companies and recognized as a 2018 GQ Entrepreneur of the Year, Esquire Magazine Entrepreneur of the Year 2017 and Arabian Business CEO of the Year 2016. Most recently, in 2018, Fast Company recognized the Hult Prize <br>
-            Foundation as one of the world's most innovative. Multiple successful deployments in education, real estate, finance, advisory, hospitality, wellness and food and beverage.
-          </p>
-          <hr class="intro-hr">
-          <a href="#"> <img src="img/linkedin.png" alt="linkedin" class="linkedin"> <span class="linkedin-text"> aashkar </span> </a>
+    <img src="img/intro-bg.png" style="z-index: -1; height: 250px; width: 100%; margin-top: -10px; margin-bottom: -173px;" alt="">
+      <div class="intro">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 text-center">
+            <img src="img/ashkar.png" class="intro-img" alt="">
+          </div>
+          <div class="col-lg-8 col-md-12 text-left" style="margin-top: 50px;">
+            <span class="h1-black">AHMAD</span> <br>
+            <span class="h1-orange">ASHKAR</span> <br>
+            <span class="h3-black">SOCIAL</span> <span class="h3-orange">VENTURE EXECUTIVE</span>
+            <p class="intro-text desktop">
+              Chief Executive Officer with more than a decade of top-level management experience in both non-profit and for-profit sector. Dynamic experience in creating and growing companies and recognized as a 2018 GQ Entrepreneur of the Year, Esquire Magazine Entrepreneur of the Year 2017 and Arabian Business CEO of the Year 2016. Most recently, in 2018, Fast Company recognized the Hult Prize <br>
+              Foundation as one of the world's most innovative. Multiple successful deployments in education, real estate, finance, advisory, hospitality, wellness and food and beverage.
+            </p>
+            <p class="intro-text mobile" style="font-size: 30px;">
+              Chief Executive Officer with more than a decade of top-level management experience in both non-profit and for-profit sector. Dynamic experience in creating and growing companies and recognized as a 2018 GQ Entrepreneur of the Year, Esquire Magazine Entrepreneur of the Year 2017 and Arabian Business CEO of the Year 2016. Most recently, in 2018, Fast Company recognized the Hult Prize <br>
+              Foundation as one of the world's most innovative. Multiple successful deployments in education, real estate, finance, advisory, hospitality, wellness and food and beverage.
+            </p>
+            <hr class="intro-hr">
+            <a href="#"> <img src="img/linkedin.png" alt="linkedin" class="linkedin"> <span class="linkedin-text"> aashkar </span> </a>
+          </div>
         </div>
       </div>
-    </div>
     <!-- ashkar introduction -->
 
     <!-- showcase section -->
