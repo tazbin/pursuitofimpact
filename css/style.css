@@ -5,6 +5,61 @@
   .desktop{
     display: none;
   }
+
+  /* experience section */
+  .company-logo{
+    margin-top: 70px;
+    width: 300px;
+  }
+
+  .position-point{
+    display: none;
+  }
+
+  .company-position{
+      color: rgb(180, 44, 4);
+      margin-top: 20px;
+      margin: auto;
+      text-align: center;
+      font-size: 40px;
+  }
+
+  .company-name{
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .company-details{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+  }
+  /* experience section */
+
+  /* stay tuned section */
+  .stay-button{
+    width: 200px;
+    height: 70px;
+    border: none;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+  }
+
+  .stay-input{
+    width: 500px;
+    height: 70px;
+    border: none;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 30px;
+    padding: 0px 20px 0px 20px;
+    margin-left: 30px;
+  }
+  /* stay tuned section */
 }
 
 @media only screen and (min-width: 1024px) {
@@ -14,6 +69,50 @@
   .desktop{
     display: block;
   }
+
+  /* experience section */
+  .company-logo{
+    margin-top: 20px;
+  }
+
+  .company-position{
+      color: rgb(180, 44, 4);
+      margin-top: 20px;
+  }
+
+  .company-name{
+    margin-left: 35px;
+  }
+
+  .company-details{
+    margin-left: 35px;
+  }
+  /* experience section */
+
+  /* stay tuned section */
+  .stay-button{
+    width: 200px;
+    height: 70px;
+    border: none;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+  }
+
+  .stay-input{
+    width: 500px;
+    height: 70px;
+    border: none;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-size: 30px;
+    padding: 0px 20px 0px 20px;
+    margin-left: 120px;
+  }
+  /* stay tuned section */
 }
 
 /* home section */
@@ -49,13 +148,15 @@
 
 .book{
   /* height: 800px; */
-  height: 100%;
+  /* height: 80%; */
+  width: 140%;
   margin-left: -50px;
   margin-top: -20px;
 }
 
 .m-book{
   height: 500px;
+  margin-left: 100px;
 }
 
 .m-author{
@@ -81,10 +182,14 @@
 /* ashkar introduction */
 .intro{
   margin-top: 20px;
+  width: 80%;
+  margin: auto;
 }
 
 .intro-img{
   width: 200px;
+  margin-top: 50px;
+  margin-bottom: -30px;
 }
 
 .h1-black{
@@ -127,6 +232,7 @@
 .intro-text{
   padding: 10px;
   font-size: 18px;
+  text-align: justify;
 }
 
 .intro-hr{
@@ -150,7 +256,7 @@
 
 /* showcase section */
 .container-showcase{
-  width: 80%;
+  width: 82%;
 }
 
 .showcase{
@@ -172,69 +278,20 @@
   color: white;
   font-weight: bold;
 }
-
-.ex-row{
-  margin-top: 30px;
-}
-
-.experience{
-  /* margin-left: 100px; */
-}
-
-.experience-img{
-  margin-left: 50px;
-}
-
-.ex-point{
-  margin-top: -3px;
-}
-
-.ex-company{
-  color: rgb(180, 44, 4);
-}
-
-.ex-position{
-  margin-left: 35px;
-}
-
-.ex-details{
-  padding: 10px;
-  margin-left: 25px;
-}
 /* experience */
 
 /* impact backgroud  */
 .impact-section{
   background-image: url('img/impact-bg.png');
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  /* background-size: 100% 100%; */
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 800px;
 }
 
-.im-form{
-  padding-top: 400px;
-}
-
-.im-btn{
-  border: none;
-  height: 50px;
-  border-radius: 1px;
-  padding: 0px 30px 0px 30px;
-}
-
-.im-input{
-  background-color: rgba(26, 26, 26, 0.71);
-  border: none;
-  height: 50px;
-  border-radius: 1px;
-  color: white;
-  width: 500px;
-  padding-left: 10px;
-
+.stay-form{
+  padding-top: 350px;
 }
 /* impact backgroud */
 
@@ -242,7 +299,7 @@
 .footer{
   background-color: black;
   width: 100%;
-  height: 150px;
+  height: 200px;
 }
 
 .links{
