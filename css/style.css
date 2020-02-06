@@ -1,331 +1,396 @@
 @font-face {
-font-family: "Edmondsans Bold";
-src: url("fonts/Edmondsans-Bold.eot");
-src:
-url("fonts/Edmondsans-Bold.woff") format("woff"),
-url("fonts/Edmondsans-Bold.otf") format("opentype"),
-url("fonts/Edmondsans-Bold.svg#filename") format("svg");
+    font-family: "Edmondsans Bold";
+    src: url("fonts/Edmondsans-Bold.eot");
+    src: url("fonts/Edmondsans-Bold.woff") format("woff"), url("fonts/Edmondsans-Bold.otf") format("opentype"), url("fonts/Edmondsans-Bold.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "Lehigh-Personal-Bold";
+    src: url("fonts/Lehigh-Personal-Bold.eot");
+    src: url("fonts/Lehigh-Personal-Bold.woff") format("woff"), url("fonts/Lehigh-Personal-Bold.otf") format("opentype"), url("fonts/Lehigh-Personal-Bold.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "Lehigh-Personal-Light";
+    src: url("fonts/Lehigh-Personal-Light.eot");
+    src: url("fonts/Lehigh-Personal-Light.woff") format("woff"), url("fonts/Lehigh-Personal-Light.otf") format("opentype"), url("fonts/Lehigh-Personal-Light.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "Lehigh-Personal-Regular";
+    src: url("fonts/Lehigh-Personal-Regular.eot");
+    src: url("fonts/Lehigh-Personal-Regular.woff") format("woff"), url("fonts/Lehigh-Personal-Regular.otf") format("opentype"), url("fonts/Lehigh-Personal-Regular.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "DDCHardware-Regular";
+    src: url("fonts/DDCHardware-Regular.eot");
+    src: url("fonts/DDCHardware-Regular.woff") format("woff"), url("fonts/DDCHardware-Regular.otf") format("opentype"), url("fonts/DDCHardware-Regular.svg#filename") format("svg");
 }
 
 @media only screen and (max-width: 1023px) {
-  .mobile{
-    display: block;
-  }
-  .desktop{
-    display: none;
-  }
-
-  /* experience section */
-  .company-logo{
-    margin-top: 70px;
-    width: 300px;
-  }
-
-  .position-point{
-    display: none;
-  }
-
-  .company-position{
-      color: rgb(180, 44, 4);
-      margin-top: 20px;
-      margin: auto;
-      text-align: center;
-      font-size: 40px;
-  }
-
-  .company-name{
-    margin: auto;
-    text-align: center;
-    font-size: 35px;
-  }
-
-  .company-details{
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-  }
-  /* experience section */
-
-  /* stay tuned section */
-  .stay-button{
-    width: 200px;
-    height: 70px;
-    border: none;
-    border-radius: 0px;
-    background-color: black;
-    color: white;
-    font-size: 30px;
-  }
-
-  .stay-input{
-    font-family: 'Edmondsans Bold', Arial, sans-serif;
-    width: 500px;
-    height: 70px;
-    border: none;
-    border-radius: 0px;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
-    font-size: 30px;
-    padding: 0px 20px 0px 20px;
-    margin-left: 30px;
-  }
-  /* stay tuned section */
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+    /* experience section */
+    .company-logo {
+        margin-top: 70px;
+        width: 300px;
+    }
+    .position-point {
+        display: none;
+    }
+    .company-position {
+        color: rgb(180, 44, 4);
+        margin-top: 20px;
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Lehigh-Personal-Bold', Arial, sans-serif;
+    }
+    .company-name {
+        margin: auto;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Lehigh-Personal-Regular', Arial, sans-serif;
+    }
+    .company-details {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Lehigh-Personal-Regular', Arial, sans-serif;
+    }
+    /* experience section */
+    /* stay tuned section */
+    .stay-button {
+        width: 250px;
+        height: 70px;
+        border: none;
+        border-radius: 0px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        font-family: 'DDCHardware-Regular', Arial, sans-serif;
+    }
+    .stay-input {
+        font-family: 'Edmondsans Bold', Arial, sans-serif;
+        width: 400px;
+        height: 70px;
+        border: none;
+        border-radius: 0px;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        font-size: 30px;
+        padding: 0px 20px 0px 20px;
+        margin-left: 80px;
+    }
+    /* stay tuned section */
 }
 
 @media only screen and (min-width: 1024px) {
-  .mobile{
-    display: none;
-  }
-  .desktop{
-    display: block;
-  }
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+    /* experience section */
+    .company-logo {
+        margin-top: 20px;
+    }
+    .company-position {
+        color: rgb(180, 44, 4);
+        margin-top: 20px;
+        font-family: 'Lehigh-Personal-Bold', Arial, sans-serif;
+    }
+    .company-name {
+        margin-left: 35px;
+        font-family: 'Lehigh-Personal-Regular', Arial, sans-serif;
+    }
+    .company-details {
+        margin-left: 35px;
+        font-family: 'Lehigh-Personal-Regular', Arial, sans-serif;
+    }
+    /* experience section */
+    /* stay tuned section */
+    .stay-button {
+        width: 220px;
+        height: 70px;
+        border: none;
+        border-radius: 0px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        margin-left: 200px;
+        font-family: 'DDCHardware-Regular', Arial, sans-serif;
+    }
+    .stay-input {
+        font-family: 'Edmondsans Bold', Arial, sans-serif;
+        width: 400px;
+        height: 70px;
+        border: none;
+        border-radius: 0px;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        font-size: 30px;
+        padding: 0px 20px 0px 20px;
+        margin-left: 140px;
+    }
+    /* stay tuned section */
+}
 
-  /* experience section */
-  .company-logo{
+
+/* home section */
+
+.home-section {
+    background-image: url('img/head-cover.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: 100% 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.quote {
+    font-family: 'Edmondsans Bold', Arial, sans-serif;
+    font-size: 320%;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.author {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lehigh-Personal-Light', Arial, sans-serif;
+}
+
+.author b {
+    font-family: 'Lehigh-Personal-Bold', Arial, sans-serif;
+}
+
+.author hr {
+    border: 2px solid white;
+    width: 20%;
+    margin-left: 80%;
+}
+
+.book {
+    /* height: 800px; */
+    /* height: 80%; */
+    width: 140%;
+    margin-left: -50px;
+    margin-top: -20px;
+}
+
+.m-book {
+    height: 500px;
+    margin-left: 100px;
+}
+
+.m-author {
+    color: white;
+    font-size: 20px;
+    margin-top: -50px;
+}
+
+.m-author hr {
+    border: 1px solid white;
+    width: 10%;
+    margin-left: 90%;
+}
+
+.m-quote {
+    font-family: 'Edmondsans Bold', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+/* home section */
+
+
+/* ashkar introduction */
+
+.intro {
     margin-top: 20px;
-  }
+    width: 80%;
+    margin: auto;
+}
 
-  .company-position{
-      color: rgb(180, 44, 4);
-      margin-top: 20px;
-  }
-
-  .company-name{
-    margin-left: 35px;
-  }
-
-  .company-details{
-    margin-left: 35px;
-  }
-  /* experience section */
-
-  /* stay tuned section */
-  .stay-button{
+.intro-img {
     width: 200px;
-    height: 70px;
-    border: none;
-    border-radius: 0px;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+
+.h1-black {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'DDCHardware-Regular', Arial, sans-serif;
+}
+
+.h1-orange {
+    background-color: black;
+    color: rgb(180, 44, 4);
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'DDCHardware-Regular', Arial, sans-serif;
+}
+
+.h3-black {
     background-color: black;
     color: white;
     font-size: 30px;
-    margin-left: 200px;
-  }
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'DDCHardware-Regular', Arial, sans-serif;
+}
 
-  .stay-input{
-    font-family: 'Edmondsans Bold', Arial, sans-serif;
-    width: 500px;
-    height: 70px;
-    border: none;
-    border-radius: 0px;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
+.h3-orange {
+    margin-left: -5px;
+    background-color: black;
+    color: rgb(180, 44, 4);
     font-size: 30px;
-    padding: 0px 20px 0px 20px;
-    margin-left: 120px;
-  }
-  /* stay tuned section */
+    font-weight: bold;
+    /* padding-left: 10px; */
+    padding-right: 10px;
+    font-family: 'DDCHardware-Regular', Arial, sans-serif;
 }
 
-/* home section */
-.home-section{
-  background-image: url('img/head-cover.png');
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  /* background-size: 100% 100%; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 800px;
+.intro-text {
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Lehigh-Personal-Regular', Arial, sans-serif;
 }
 
-.quote{
-  font-family: 'Edmondsans Bold', Arial, sans-serif;
-  font-size: 320%;
-  font-weight: bold;
-  margin-top: 50px;
+.intro-hr {
+    border: 1px solid rgb(195, 195, 195);
+    width: 40%;
+    margin-right: 60%;
 }
 
-.author{
-  color: white;
-  font-size: 20px;
+.linkedin {
+    height: 30px;
+    margin-top: -10px;
 }
 
-.author hr{
-  border: 2px solid white;
-  width: 20%;
-  margin-left: 80%;
+.linkedin-text {
+    text-decoration: none;
+    color: rgb(91, 89, 89);
+    font-size: 30px;
+    padding-left: 10px;
 }
 
-.book{
-  /* height: 800px; */
-  /* height: 80%; */
-  width: 140%;
-  margin-left: -50px;
-  margin-top: -20px;
-}
-
-.m-book{
-  height: 500px;
-  margin-left: 100px;
-}
-
-.m-author{
-  color: white;
-  font-size: 20px;
-  margin-top: -50px;
-}
-
-.m-author hr{
-  border: 1px solid white;
-  width: 10%;
-  margin-left: 90%;
-}
-
-.m-quote{
-  font-family: 'Edmondsans Bold', Arial, sans-serif;
-  font-size: 35px;
-  font-weight: bold;
-  margin-top: 40px;
-}
-/* home section */
 
 /* ashkar introduction */
 
-.intro{
-  margin-top: 20px;
-  width: 80%;
-  margin: auto;
-}
-
-.intro-img{
-  width: 200px;
-  margin-top: 50px;
-  margin-bottom: -30px;
-}
-
-.h1-black{
-  background-color: black;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.h1-orange{
-  background-color: black;
-  color: rgb(180, 44, 4);
-  font-size: 40px;
-  font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.h3-black{
-  background-color: black;
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.h3-orange{
-  margin-left: -5px;
-  background-color: black;
-  color: rgb(180, 44, 4);
-  font-size: 30px;
-  font-weight: bold;
-  /* padding-left: 10px; */
-  padding-right: 10px;
-}
-
-.intro-text{
-  padding: 10px;
-  font-size: 18px;
-  text-align: justify;
-}
-
-.intro-hr{
-  border: 1px solid rgb(195, 195, 195);
-  width: 40%;
-  margin-right: 60%;
-}
-
-.linkedin{
-  height: 30px;
-  margin-top: -10px;
-}
-
-.linkedin-text{
-  text-decoration: none;
-  color: rgb(91, 89, 89);
-  font-size: 30px;
-  padding-left: 10px;
-}
-/* ashkar introduction */
 
 /* showcase section */
-.container-showcase{
-  width: 82%;
+
+.container-showcase {
+    width: 82%;
 }
 
-.showcase{
-  margin-top: 50px;
-  margin-bottom: 50px;
+.showcase {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.showcase-col{
-  background-color: white;
-  margin-top: 10px;
+.showcase-col {
+    background-color: white;
+    margin-top: 10px;
 }
+
+.showcase-img {
+    margin-bottom: 20px;
+}
+
+.showcase-img:hover {
+    -webkit-box-shadow: 2px 10px 24px 0px rgba(217, 120, 24, 1);
+    -moz-box-shadow: 2px 10px 24px 0px rgba(217, 120, 24, 1);
+    box-shadow: 2px 10px 24px 0px rgba(217, 120, 24, 1);
+    margin-top: -5px;
+    border-radius: 10px;
+    transition: 0.5s;
+    z-index: 2;
+    position: relative;
+}
+
+
 /* showcase section */
 
+
 /* experience */
-.ex-title{
-  background-color: black;
-  padding: 5px;
-  font-size: 30px;
-  color: white;
-  font-weight: bold;
+
+.ex-title {
+    background-color: black;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: 'DDCHardware-Regular', Arial, sans-serif;
 }
+
+
 /* experience */
+
 
 /* impact backgroud  */
-.impact-section{
-  background-image: url('img/impact-bg.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 800px;
+
+.impact-section {
+    background-image: url('img/impact-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
 }
 
-.stay-form{
-  padding-top: 350px;
+.stay-form {
+    padding-top: 350px;
 }
+
+
 /* impact backgroud */
 
+
 /* footer section */
-.footer{
-  background-color: black;
-  width: 100%;
-  height: 200px;
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 200px;
 }
 
-.links{
-  color: white;
+.links {
+    color: white;
 }
 
-.links hr{
-  width: 30%;
-  margin-left: 70%;
-  border: 1px solid white;
+.links hr {
+    width: 30%;
+    margin-left: 70%;
+    border: 1px solid white;
 }
 
-.link-img{
-  width: 30px;
-  margin-left: 20px;
+.link-img {
+    width: 30px;
+    margin-left: 20px;
 }
+
+
 /* footer section */

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Pursuit Of Impact</title>
+    <link rel="icon" href="img/ashkar.png" type="" sizes="16x16">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -78,26 +79,26 @@
     <!-- ashkar introduction -->
 
     <!-- showcase section -->
-    <div class="text-center">
+    <div class="text-center" style="background-color: trasnparent">
       <div class="container-showcase mx-auto">
         <div class="row showcase">
           <div class="col-lg-4 col-md-6 text-center showcase-col">
-            <img src="img/awards.png" alt="">
+            <img src="img/awards.png" class="showcase-img" alt="">
           </div>
           <div class="col-lg-4 col-md-6 text-center showcase-col">
-            <img src="img/gulf_business.png" alt="">
+            <img src="img/gulf_business.png" class="showcase-img"  alt="">
           </div>
           <div class="col-lg-4 col-md-6 text-center showcase-col">
-            <img src="img/fast_company.png" alt="">
+            <img src="img/fast_company.png" class="showcase-img"  alt="">
           </div>
           <div class="col-lg-4 col-md-6 text-center showcase-col">
-            <img src="img/gq.png" alt="">
+            <img src="img/gq.png" class="showcase-img"  alt="">
           </div>
           <div class="col-lg-4 col-md-6 text-center showcase-col">
-            <img src="img/business.png" alt="">
+            <img src="img/business.png" class="showcase-img"  alt="">
           </div>
           <div class="col-lg-4 col-md-6 text-center showcase-col">
-            <img src="img/esquire.png" alt="">
+            <img src="img/esquire.png" class="showcase-img"  alt="">
           </div>
         </div>
       </div>
