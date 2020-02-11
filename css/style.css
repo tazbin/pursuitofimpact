@@ -44,7 +44,7 @@
         display: none;
     }
     .company-position {
-        color: rgb(180, 44, 4);
+        color: rgb(237, 70, 47);
         margin-top: 20px;
         margin: auto;
         text-align: center;
@@ -102,7 +102,7 @@
         margin-top: 20px;
     }
     .company-position {
-        color: rgb(180, 44, 4);
+        color: rgb(237, 70, 47);
         margin-top: 20px;
         font-family: 'Lehigh-Personal-Bold', Arial, sans-serif;
     }
@@ -242,7 +242,7 @@
 
 .h1-orange {
     background-color: black;
-    color: rgb(180, 44, 4);
+    color: rgb(237, 70, 47);
     font-size: 40px;
     font-weight: bold;
     padding-left: 10px;
@@ -263,7 +263,7 @@
 .h3-orange {
     margin-left: -5px;
     background-color: black;
-    color: rgb(180, 44, 4);
+    color: rgb(237, 70, 47);
     font-size: 30px;
     font-weight: bold;
     /* padding-left: 10px; */

@@ -18,7 +18,7 @@
           <div class="row">
             <div class="col-md-5">
               <div class="quote">
-                "Solving the world's most pressing challenge is not the right thing to do, it is also a good business"
+                "Solving the world's most pressing challenges is not just the right thing to do, it is also good business"
               </div>
               <div class="author text-right">
                 <hr>
@@ -64,12 +64,10 @@
             <span class="h1-orange">ASHKAR</span> <br>
             <span class="h3-black">SOCIAL</span> <span class="h3-orange">VENTURE EXECUTIVE</span>
             <p class="intro-text desktop">
-              Chief Executive Officer with more than a decade of top-level management experience in both non-profit and for-profit sector. Dynamic experience in creating and growing companies and recognized as a 2018 GQ Entrepreneur of the Year, Esquire Magazine Entrepreneur of the Year 2017 and Arabian Business CEO of the Year 2016. Most recently, in 2018, Fast Company recognized the Hult Prize <br>
-              Foundation as one of the world's most innovative. Multiple successful deployments in education, real estate, finance, advisory, hospitality, wellness and food and beverage.
+              Ahmad Ashkar is the Chief Executive Officer and Founder of the Hult Prize Foundation – named in a TIME Magazine cover story featuring the top five ideas changing the world. He is also the founding CEO of Falafel Inc, a fast growing, venture backed social enterprise which feeds and empowers refugees around the world. Mr. Ashkar's startups, learning programs and companies have been recognized as some of the most impactful and innovative in the world. In 2018, the Hult Foundation was selected as, “One of the World’s Most Innovative Companies” as awarded by Fast Company and in 2019, Ashkar was selected to the 2019 Gulf Business  "Top 100 Most Powerful Arabs" power ranking while Falafel Inc was selected as one of the city’s top new restaurants by Yelp and Buzz Feed.
             </p>
             <p class="intro-text mobile" style="font-size: 30px;">
-              Chief Executive Officer with more than a decade of top-level management experience in both non-profit and for-profit sector. Dynamic experience in creating and growing companies and recognized as a 2018 GQ Entrepreneur of the Year, Esquire Magazine Entrepreneur of the Year 2017 and Arabian Business CEO of the Year 2016. Most recently, in 2018, Fast Company recognized the Hult Prize <br>
-              Foundation as one of the world's most innovative. Multiple successful deployments in education, real estate, finance, advisory, hospitality, wellness and food and beverage.
+              Ahmad Ashkar is the Chief Executive Officer and Founder of the Hult Prize Foundation – named in a TIME Magazine cover story featuring the top five ideas changing the world. He is also the founding CEO of Falafel Inc, a fast growing, venture backed social enterprise which feeds and empowers refugees around the world. Mr. Ashkar's startups, learning programs and companies have been recognized as some of the most impactful and innovative in the world. In 2018, the Hult Foundation was selected as, “One of the World’s Most Innovative Companies” as awarded by Fast Company and in 2019, Ashkar was selected to the 2019 Gulf Business  "Top 100 Most Powerful Arabs" power ranking while Falafel Inc was selected as one of the city’s top new restaurants by Yelp and Buzz Feed.
             </p>
             <hr class="intro-hr">
             <a href="#"> <img src="img/linkedin.png" alt="linkedin" class="linkedin"> <span class="linkedin-text"> aashkar </span> </a>
